@@ -1,0 +1,6 @@
+console.log("Добро пожаловать в игру Дурак!");
+    while (true) {
+      console.log("\nВаши карты:");
+      displayHand(playerHand);
+      console.log("\nНа столе:");
+      displayHand(table);
